@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cpsc471.rateit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SubjectActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemActivity"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemRateActivity"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SubmitSubjectActivity" />
+        <activity android:name=".SubmitItemActivity" />
+        <activity android:name=".SubmitFeedbackActivity" />
+        <activity android:name=".SubmitCommentActivity" />
+        <activity android:name=".DeleteUsernameActivity" />
+        <activity android:name=".DeleteSubjectActivity" />
+        <activity android:name=".DeleteItemActivity" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

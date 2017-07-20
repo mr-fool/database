@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_submit_feedback"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Submit Feedback" />
+        <item
+            android:id="@+id/nav_delete_subject"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Delete Subject" />
+        <item
+            android:id="@+id/nav_delete_item"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Delete Item" />
+        <item
+            android:id="@+id/nav_delete_account"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Delete Account" />
+        <item
+            android:id="@+id/nav_view_feedback"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Feedback" />
+
+    </group>
+
+</menu>
